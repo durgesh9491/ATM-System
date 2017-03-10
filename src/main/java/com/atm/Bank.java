@@ -40,6 +40,7 @@ public class Bank {
 		for (Account acc : accounts) {
 			if (acc.getAccountNumber() == accountNum) {
 				ans = acc.getCurrentBalance();
+				break;
 			}
 		}
 		return ans;
